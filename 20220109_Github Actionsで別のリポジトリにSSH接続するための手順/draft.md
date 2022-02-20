@@ -25,7 +25,7 @@ install -m 0700 -d ~/.ssh
 （`ssh-keygen`入力時に、`-f ~/.ssh/id_rsa`のオプションを入れれば、この画面は出ないかも。）
 
 ```shell
-ssh-keygen -t rsa -C 52403447+Landmaster135@users.noreply.github.com
+ssh-keygen -t rsa -C 52403447+landmaster135@users.noreply.github.com
 ```
 
 `Enter file in which to save the key(path)`と出てきますが、`~/.ssh/id_rsa`に相当する`path`がコマンドを実行したディレクトリと同じであれば、何も入力せずにEnterでOK。
